@@ -3,6 +3,8 @@ apply plugin: 'java'
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.8.1'
+    // https://mvnrepository.com/artifact/com.codeborne/phantomjsdriver
+    compile group: 'com.codeborne', name: 'phantomjsdriver', version: '1.4.4'
 }
 
 sourceCompatibility = "1.7"
